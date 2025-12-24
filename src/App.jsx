@@ -1,8 +1,12 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <>
-      <h1 className="uppercase text-center font-bold text-red-600">hello world</h1>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes></Routes>
+    </BrowserRouter>
   );
 }
 
