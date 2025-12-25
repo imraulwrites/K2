@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <section className="">
       <div className="container">
-        <div className="flex items-center justify-between px-4 py-10">
+        <div className="flex items-center justify-between md:px-4 py-10">
           {/* Logo */}
           <div>
             <svg
