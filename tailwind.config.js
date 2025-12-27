@@ -5,16 +5,25 @@ export default {
     container: {
       center: true,
       padding: {
+        DEFAULT: '0.5rem',
+        md: '0.5rem',
+        lg: '0.5rem',
+      },
+
+      margin: {
         DEFAULT: '1rem',
-        md: '2rem',
-        lg: '4rem',
+        md: '1rem',
+        lg: '1rem',
       },
     },
 
     screens: {
       sm: '540px',
-      md: '768px',
-      lg: '1200px',
+      md: '728px',
+      lg: '984px',
+      xl: '1240px',
+      '2xl': '1496px',
+      '3xl': '1600px',
     },
 
     extend: {
